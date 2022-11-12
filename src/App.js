@@ -8,7 +8,7 @@ import Book from './Sections/Book/Book';
 import About from './Sections/About/About';
 function App() {
   return (
-    <Router>
+    <Router basename={'/travel-app'}>
 
       <Header/>
      <Routes>
