@@ -8,25 +8,25 @@ function HomeSection() {
  <section className="home">
 <div  id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active imgH">
       
-      <img className='img' src="images/home-slide-1.jpg" class="d-block " alt=""/>
+      <img  src="images/home-slide-1.jpg"  alt=""/>
       <div className="content  carousel-caption d-none d-md-block">
                 <span>explore, discover, travel</span>
                 <h3>travel arround the world</h3>
                 <Link to={"/package"} className="btn btn-secondary btn-lg">discover more</Link>
              </div>
     </div>
-    <div class="carousel-item">
-      <img className='img'  src="images/home-slide-2.jpg" class="d-block " alt=""/>
+    <div class="carousel-item imgH">
+      <img   src="images/home-slide-2.jpg"  alt=""/>
       <div className="content  carousel-caption d-none d-md-block">
-                <span>explore, discover, travel</span>
-                <h3>travel arround the world</h3>
+                <span >explore, discover, travel</span>
+                <h3 >travel arround the world</h3>
                 <Link to={"/package"} className="btn btn-secondary btn-lg">discover more</Link>
              </div>
     </div>
-    <div class="carousel-item">
-      <img  src="images/home-slide-3.jpg" class="d-block" alt=""/>
+    <div class="carousel-item imgH">
+      <img  src="images/home-slide-3.jpg"  alt=""/>
       <div className="content  carousel-caption d-none d-md-block">
                 <span>explore, discover, travel</span>
                 <h3>travel arround the world</h3>
